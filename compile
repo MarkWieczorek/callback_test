@@ -1,0 +1,1 @@
+python3 -m numpy.f2py -c signature.pyf subroutine.f95

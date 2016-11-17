@@ -1,0 +1,17 @@
+python module callback_test
+    interface
+        subroutine routine()
+            intent(callback,hide) pyfunc
+            external pyfunc
+            integer i
+            call pyfunc(i)
+        end subroutine routine
+
+!        subroutine routine2()
+!            intent(callback,hide) pyfunc
+!            external pyfunc
+!            integer i
+!            call pyfunc(i)
+!        end subroutine routine2
+    end interface
+end python module callback_test

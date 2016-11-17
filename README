@@ -1,0 +1,7 @@
+create the f2py bindings by
+
+    source compile
+
+run the python script with
+
+    python script.py
